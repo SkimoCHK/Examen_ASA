@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen_ASA.MainPage"
+             BackgroundColor="Wheat">
+
+    <StackLayout>
+        <Label Text="Calculadora para Obesos" FontSize="Title" TextColor="CadetBlue"/>
+
+        <Label Text="Duracion" TextColor="Black" FontSize="Body"/>
+        <Entry x:Name="DuracionEntry" Placeholder="Ingresa la duracion"  />
+
+        <Label Text="Peso" TextColor="Black" FontSize="Body"/>
+        <Entry x:Name="Peso" Placeholder="Ingresa tu peso" />
+
+        <Button Text="Calcular" Clicked="Button_ClickedResultado" CornerRadius="30" BackgroundColor="Teal"/>
+
+        <Label Text="Calorias Quemadas" TextColor="Green" FontSize="Large" />
+        <Label x:Name="Resultado" TextColor="SeaGreen" FontSize="Medium"/>
+    
+        
+        
+        <Image Source="motivacion.jpg" x:Name="MotivacionImagen" />
+
+    </StackLayout>
+
+</ContentPage>
